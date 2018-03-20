@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+@import url("Estilos.css");
+</style>
+</head>
+
+<body>
+	<header>
+	 <div id="container1">
+	 <div id="branding">
+	 <nav>  
+		<ul>
+				<li><a class="contacto_boton" href="Portfolio.html">Inicio</a></li>
+				
+				<li><a class="contacto_boton" id="color_proj" href="Projects.html">Projects</a></li>
+				<li><a class="contacto_boton" href="contacto.html">Contacto//cv</a></li>
+				<li style="float:left"><a class="contacto_boton" class="active" href="contacto.html">Sergio Miquel</a></li>
+			</ul>
+	 </nav>
+	</header>
+	
+	 <section id="showcase">
+		<div class="wrapper">
+		 <div id="piefoto">
+		 <div class="w3-content w3-display-container">
+		 
+
+<div class="w3-display-container mySlides">
+
+  <img src="imagenes/render5.jpg" style="width:100%">
+  <div id="titulo_pie" class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="imagenes/RenderCats.jpg" style="width:100%">
+  <div id="titulo_pie" class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    
+  </div>
+</div>
+
+
+
+</div>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+
+		  
+		  
+			
+		
+	</section>
+
+	<section class="container2">
+		<div  id="Caja1" class="container">
+
+		
+		 
+		 </div>
+		 <div id="unity" class="container">
+		  
+		</div>
+		<div id="HTML"; class="container">
+		 
+		</div>
+		<div id="harmony" class="container">
+		<div class="capaAuxTexto">
+			<p class="enlace"><a href="http://www.google.es"></a></p>
+		</div>
+		  
+		</div>
+	</section>
+	
+	<section class="container3">
+	<h2>Reel 2017</h3>
+	<div id="item1" class="grid-item" >
+	
+		  <iframe src="https://player.vimeo.com/video/261023907" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+		
+	</section>
+	
+	<section class="container4">
+	<h2>About Me</h2>
+	
+	
+		<div id="Caja1" class="container">
+			
+
+					
+		 
+		 </div>
+		
+	</section>
+	
+	</body>
+	</html>
